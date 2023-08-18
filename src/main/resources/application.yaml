@@ -1,0 +1,5 @@
+spring:
+  config:
+    import: optional:configserver:http://config-server-17thaug2023:5555
+  application:
+    name: client-app-17thaug2023
